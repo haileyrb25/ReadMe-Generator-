@@ -6,16 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [   {
-    type: 'input',
-    name: 'name',
-    message: 'What is your name?',
-  },
-  {
-    type: 'input',
-    name: 'email',
-    message: 'What is your email address?', 
-  },
-  {
+    
     type: 'input',
     name: 'title',
     message: 'What is the title of your project?',
@@ -28,19 +19,39 @@ const questions = [   {
     message: 'Please write a description of your project:',
   },
   {
-      type: 'input',
-      name: 'license',
-      message: 'What kind of license does your project have?',
+    type: 'input',
+    name: 'installation',
+    message: 'What is the installation process of your project?',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'What is the usage information for this project?',
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'What are the contribution guidelines?',
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'What are the test instructions?',
   },
 //   {
-//       type: '',
-//       name: '',
-//       message: 'What languages were used in this project?',
-//     },
+//       type: 'input',
+//       name: 'license',
+//       message: 'What kind of license does your project have?',
+//   },
+  {
+      type: 'input',
+      name: 'github',
+      message: 'What is your github username?',
+    },
     {
         type: 'input',
-        name: 'contributors',
-        message: 'Who contributed to this project?',
+        name: 'email',
+        message: 'What is your email address?',
     },];
 //insert questions
 
@@ -53,6 +64,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((answers)=>{
         writeToFile("README.md", generateMarkdown(answers))
+        .then(() => console.log('Successfully wrote the ReadMe file!'))
+    .catch((err) => console.error(err));
     })
 }
 
