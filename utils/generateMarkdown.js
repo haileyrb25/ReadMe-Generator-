@@ -30,13 +30,13 @@ function generateMarkdown(data) {
 - [Installation](#Installations)
 - [Usage](#Usage)
 - [Contributions](#Contributions)
-- [Test Instructions](#Test Instructions)
+- [Test Instructions](#Tests)
 - [Questions](#Questions)
 - [License](#License)
 
 ---
 ## Description
-*${data.description}*
+${data.description}
 
 ---
 ## Installations
@@ -54,7 +54,7 @@ function generateMarkdown(data) {
 *Contribution Guidelines:* ${data.contribution}
 
 ---
-## Test Instructions
+## Tests
 
 *Test Instructions:* ${data.test}
 
