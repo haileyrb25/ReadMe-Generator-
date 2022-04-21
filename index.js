@@ -12,7 +12,6 @@ const questions = [   {
     message: 'What is the title of your project?',
     
   },
-
   {
     type: 'input',
     name: 'description',
@@ -38,11 +37,11 @@ const questions = [   {
     name: 'test',
     message: 'What are the test instructions?',
   },
-//   {
-//       type: 'input',
-//       name: 'license',
-//       message: 'What kind of license does your project have?',
-//   },
+  {
+      type: 'input',
+      name: 'license',
+      message: 'What kind of license does your project have?',
+  },
   {
       type: 'input',
       name: 'github',
@@ -53,7 +52,7 @@ const questions = [   {
         name: 'email',
         message: 'What is your email address?',
     },];
-//insert questions
+
 
 // TODO: Create a function to write README file. need to return it
 function writeToFile(fileName, data) {
@@ -64,8 +63,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((answers)=>{
         writeToFile("README.md", generateMarkdown(answers))
-        .then(() => console.log('Successfully wrote the ReadMe file!'))
-    .catch((err) => console.error(err));
+        console.log("You have succesfully created a ReadMe File!")
     })
 }
 
