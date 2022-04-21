@@ -34,7 +34,6 @@ function generateMarkdown(data) {
 - [Questions](#Questions)
 - [License](#License)
 
-
 ---
 ## Description
 *${data.description}*
@@ -42,29 +41,29 @@ function generateMarkdown(data) {
 ---
 ## Installations
 
-**Installation Process:** ${data.installation}
+*Installation Process:* ${data.installation}
 
 ---
 ## Usage
 
-**Usage Information:** ${data.usage}
+*Usage Information:* ${data.usage}
 
 ---
 ## Contributions
 
-**Contribution Guidelines:** ${data.contribution}
+*Contribution Guidelines:* ${data.contribution}
 
 ---
 ## Test Instructions
 
-**Test Instructions:** ${data.test}
+*Test Instructions:* ${data.test}
 
 ---
 ## Questions
 
-**Github Username:** ${data.github}
+*Github Username:* ${data.github}
 
-**To reach me with more questions, please email me at:** ${data.email}
+*To reach me with more questions, please email me at:* ${data.email}
 
 ---
 ## Licenses
