@@ -51,7 +51,6 @@ For this project, I was able to create a ReadMe file with node.js to simplify th
 ---
 ## Licenses
 
-##License
     This project is licensed under undefined.
 undefined
 
