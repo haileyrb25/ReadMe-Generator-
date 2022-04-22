@@ -65,6 +65,7 @@ function init() {
         writeToFile("README.md", generateMarkdown(answers))
         console.log("You have succesfully created a ReadMe File!")
     })
+    
 }
 
 // Function call to initialize app
