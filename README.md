@@ -13,6 +13,11 @@
 - [License](#License)
 
 ---
+## Screenshot
+![Image](./assets/Screen%20Shot%202022-04-22%20at%202.26.06%20PM.png)
+
+---
+
 ## Description
 For this project, I was able to create a ReadMe file with node.js to simplify the process of creating a ReadMe File everytime a nex project is started for github. We were given starter code, but I was able to use a markdown function to make this run on node.js.
 
