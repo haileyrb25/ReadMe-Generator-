@@ -1,5 +1,4 @@
-
-  # ReadMe Generator
+ # ReadMe Generator
  
 ---
 ## Table of Contents
@@ -15,6 +14,13 @@
 ---
 ## Screenshot
 ![Image](./assets/Screen%20Shot%202022-04-22%20at%202.26.06%20PM.png)
+
+---
+
+## Video
+
+![](./assets/Readme%20Generator.gif)
+Please excuse the size, the file was too large but you can view the full video here at [Full Video](https://drive.google.com/file/d/1QSZq5Mbq2lSEMvPMSr-52fbKPgTcUToz/view)
 
 ---
 
@@ -52,5 +58,4 @@ For this project, I was able to create a ReadMe file with node.js to simplify th
 ## Licenses
 
     This project is licensed under undefined.
-undefined
 
