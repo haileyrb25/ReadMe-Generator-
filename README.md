@@ -1,6 +1,7 @@
- # ReadMe Generator
+
+# ReadMe Generator
  
----
+
 ## Table of Contents
 
 - [Description](#Desription)
@@ -14,6 +15,13 @@
 ---
 ## Screenshot
 ![Image](./assets/Screen%20Shot%202022-04-22%20at%202.26.06%20PM.png)
+
+---
+## Video
+
+![](./assets/Readme%20Generator.gif)
+Please excuse the size of the git video, it was too large of a file. Have no fear! You can view the video at this link:
+[Live Link to video](https://drive.google.com/file/d/1QSZq5Mbq2lSEMvPMSr-52fbKPgTcUToz/view)
 
 ---
 
