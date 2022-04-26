@@ -17,17 +17,11 @@
 ![Image](./assets/Screen%20Shot%202022-04-22%20at%202.26.06%20PM.png)
 
 ---
-## Video
-
-![](./assets/Readme%20Generator.gif)
-Please excuse the size of the git video, it was too large of a file. Have no fear! You can view the video at this link:
-[Live Link to video](https://drive.google.com/file/d/1QSZq5Mbq2lSEMvPMSr-52fbKPgTcUToz/view)
-
----
 
 ## Video
 
 ![](./assets/Readme%20Generator.gif)
+
 Please excuse the size, the file was too large but you can view the full video here at [Full Video](https://drive.google.com/file/d/1QSZq5Mbq2lSEMvPMSr-52fbKPgTcUToz/view)
 
 ---
